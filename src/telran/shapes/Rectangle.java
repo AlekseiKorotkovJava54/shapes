@@ -20,12 +20,12 @@ public class Rectangle extends Shape {
 
 	@Override
 	public int square() {
-		return getWidth()*getHeight();
+		return width*height;
 	}
 
 	@Override
 	public int perimeter() {
-		return (getWidth()+getHeight())*2;
+		return (width+height)*2;
 	}
 
 }

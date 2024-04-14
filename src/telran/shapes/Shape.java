@@ -1,7 +1,7 @@
 package telran.shapes;
 
 public abstract class Shape {
-	public long id;
+	protected long id;
 
 	public Shape(long id) {
 		super();
